@@ -1,0 +1,14 @@
+[project]
+name = "json-ai-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13.3"
+dependencies = [
+    "fastapi>=0.121.1",
+    "langchain-openai>=1.0.2",
+    "langgraph>=1.0.2",
+    "langgraph-cli[inmem]>=0.4.7",
+    "pydantic>=2.12.4",
+    "uvicorn>=0.38.0",
+]
